@@ -379,13 +379,13 @@ a:not([href]):not([tabindex]) {
 }
 
 .home.img-bg {
-    background: url(../images/bg/demo.jpeg);
+    background: url(../images/code.jpg);
     background-size: cover;
 }
 
 .home .bgScroll {
     animation: 40s linear 0s normal none infinite running bgScroll;
-    background: black url(../images/bg/scroll.jpeg) repeat scroll center top;
+    background: black url(../images/code.jpg) repeat scroll center top;
 }
 
 .bgScroll {
