@@ -28,7 +28,7 @@ export class ElvysRodService {
   }
 
   private CargarEducacion(){
-    this.http.get('https://cvelvys.firebaseio.com/Educacion.json')
+    this.http.get('https://cvelvys-23092-default-rtdb.firebaseio.com/Educacion')
       .subscribe((resp: any[]) => {
         this.educacion = resp;
         console.log(resp);
